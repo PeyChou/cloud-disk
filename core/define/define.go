@@ -25,7 +25,7 @@ func (uc *UserClaim) Valid() error {
 var JwtKey = "cloud-disk-key"
 var TokenExpire int = 3600
 
-var EmailPassword = "foyglitzssradjbd"
+var EmailPassword = ""
 
 // CodeLength 验证码长度
 var CodeLength = 6
@@ -33,9 +33,9 @@ var CodeLength = 6
 // CodeExpireTime 验证码过期时间
 var CodeExpireTime = time.Second * time.Duration(300)
 
-var TencentSecretID string = "AKIDvmU3Zv32sY2IXlDd1MXgpsjcR9lCeEnF"
-var TencentSecretKey string = "Qh0GavEXkrplfVOpKstuzBIOTSROE0gG"
-var CosBucket string = "https://peychou-1321122848.cos.ap-chengdu.myqcloud.com"
+var TencentSecretID string = ""
+var TencentSecretKey string = ""
+var CosBucket string = ""
 
 // PageSize 分页默认参数
 var PageSize int = 20
